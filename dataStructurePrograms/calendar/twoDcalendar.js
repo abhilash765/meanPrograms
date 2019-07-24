@@ -1,3 +1,7 @@
+/**
+ * Write a program Calendar.js that takes the month and year as command-line arguments and prints the Calendar of the month.
+ *  Store the Calendar in an 2D Array, the first dimension the week of the month and the second dimension stores the day of the week
+ */
 var dateNow=new Date();
 var month=process.argv[3];
 var year=process.argv[2];

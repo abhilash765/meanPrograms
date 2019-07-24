@@ -109,7 +109,7 @@ module.exports.link2 = class linkedlist {
             array.push(this.temp.data);
             this.temp = this.temp.next;
         }
-        fs.writeFile("D://meanFellowship//dataStructurePrograms//orderedList//numbers.txt", array, (err, data) => {
+        fs.writeFile("D://meanPrograms//dataStructurePrograms//orderedList//numbers.txt", array, (err, data) => {
             if (err) 
             throw "The the number is not added to file";
             else console.log("------------------------------");
@@ -120,6 +120,6 @@ module.exports.link2 = class linkedlist {
 }
 module.exports.readfile = readfile = () => {
     var array;
-    array = (fs.readFileSync("D://meanFellowship//dataStructurePrograms//orderedList//numbers.txt"));
+    array = (fs.readFileSync("D://meanPrograms//dataStructurePrograms//orderedList//numbers.txt"));
     return array;
 }

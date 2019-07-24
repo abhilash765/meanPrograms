@@ -1,49 +1,36 @@
-module.exports.qlink=function Queue(){
- let items = [];
- let front = 0;
- let rear = -1;
- let count = 0;
-  
- //Add a new element in queue
- this.enqueue = (elm) => {
-   items[++rear] = elm;
-   count++;
- }
-  
- //Remove element from the queue
- this.dequeue = () => {
-   let current = front++;
-   let temp = items[current]; 
-   items[current] = null;
-   count--;
-   return temp;
- }
-  
- //Return the first element from the queue
- this.front = () => {
-   return items[front];
- }
+module.exports.qlink = class Queue {
+  constructor() {
+    this.front = 0;
+    this.rear = 0;
+    this.queue;
+    this.sQueue()
+  }
+  sQueue() {
+    this.queu = [];
+  }
 
- //Return the last element from the queue
- this.rear = () => {
-   return items[rear];
- }
-  
- //Check if queue is empty
- this.isEmpty = () => {
-   return count === 0;
- }
-  
- //Return the size of the queue
- this.size = () => {
-   return count;
- }
-  
- //Print the queue
- this.print = () => {
-  let temp = items.filter((e) => e !== null);
-  console.log(temp.toString());
- };
-  
+  //Add a new element in queue
+  enqueue(item) {
+    this.queue[parseInt(this.rear)] = item;
+    this.rear += 1;
+  }
+
+  //Remove element from the queue
+  dequeue() {
+    if (this.isEmpty()) {
+      return ' ';
+    }
+    var rem = this.queue[this.front];
+    this.front += 1;
+    return rem;
+  }
+
+  print() {
+    if (this.isEmpty()) {
+      console.log("EMPTY");
+    }
+    this.queue.slice(this.front, this.rear).forEach(element => {
+      console.log(element);
+    });
+  }
 }
-

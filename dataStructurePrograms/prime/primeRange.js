@@ -1,23 +1,9 @@
-function start() {
-    var array = [2, 3];
-    for (var i = 5; i <= 1000; i += 2) {
-        if (array.every(function (p) {
-                return i % p;
-            })) {
-            array.push(i);
-        }
-    }
-    i = 0;
-    k = 0;
-    arr1 = Array.from(Array(10), () => new Array(50));
-    for (j = 0; j < array.length; j++) {
-        if ((i + 1) * 100 < array[j]) {
-            i++;
-            k = 0;
-        }
-        arr1[i][k] = array[j];
-        k++;
-    }
-    console.log(arr1);
-}
-start();
+ /**
+  * Take a range of 0 - 1000 Numbers and find the Prime numbers in that range. 
+  * Store the prime numbers in a 2D Array, the first dimension represents the range 0-100, 100-200, and so on.
+  *  While the second dimension represents the prime numbers in that range
+  */
+ let primeLink=require('./utility');
+ let arr=[];
+primeLink.primeCheck();
+primeLink.storeArray();
