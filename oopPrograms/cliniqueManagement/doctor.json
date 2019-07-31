@@ -1,0 +1,39 @@
+[
+    {
+        "DOCTOR": [
+            {
+                "dName": "Dr.Ramendran",
+                "DID": 20,
+                "Specialization": "Dental",
+                "PatientsAttended":5,
+                "Patient_list":[],
+                "Availability": [{
+                    "am":10,
+                    "pm":3
+                }]
+            },
+            {
+                "dName": "Dr.Abdul Sathar",
+                "DID": 28,
+                "Specialization": "Eye",
+                "PatientsAttended":5,
+                "Patient_list":[],
+                "Availability": [{
+                    "am":7,
+                    "pm":3
+                }]
+            },
+            {
+                "dName": "Dr.Rahul Raj",
+                "DID": 35,
+                "Specialization": "Skin",
+                "PatientsAttended":5,
+                "Patient_list":[],
+                "Availability": [{
+                    "am":9,
+                    "pm":5
+                }]
+            }
+        ]
+    }
+]

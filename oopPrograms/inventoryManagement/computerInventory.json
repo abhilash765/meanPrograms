@@ -1,0 +1,56 @@
+[
+    {
+        
+        "Laptops": [
+            {
+                "productName": "acer",
+                "items": 20,
+                "productPrice": 48000
+            },
+            {
+                "productName": "hp",
+                "items": 28,
+                "productPrice": 45000
+            },
+            {
+                "productName": "dell",
+                "items": 35,
+                "productPrice": 40000
+            }
+        ],
+        "Desktops": [
+            {
+                "productName": "Apple",
+                "items": 35,
+                "productPrice": 58000
+            },
+            {
+                "productName": "Lenovo",
+                "items": 13,
+                "productPrice": 36000
+            },
+            {
+                "productName": "Iball",
+                "items": 13,
+                "productPrice": 25000
+            }
+        ],
+        "Tablets": [
+            {
+                "productName": "Apple",
+                "items": 15,
+                "productPrice": 85000
+            },
+            {
+                "productName": "samsung",
+                "items": 25,
+                "productPrice": 68000
+            },
+            {
+                "productName": "oppo",
+                "items": 20,
+                "productPrice": 50000
+            }
+        ]
+    }
+]

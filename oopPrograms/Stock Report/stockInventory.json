@@ -1,0 +1,56 @@
+[
+    {
+        
+        "Benz": [
+            {
+                "stockName": "S CLASS",
+                "noOfShares": 20,
+                "sharePrice": 480
+            },
+            {
+                "stockName": "E CLASS",
+                "noOfShares": 28,
+                "sharePrice": 450
+            },
+            {
+                "stockName": "C CLASS",
+                "noOfShares": 35,
+                "sharePrice": 400
+            }
+        ],
+        "BMW": [
+            {
+                "stockName": "Broad W",
+                "noOfShares": 35,
+                "sharePrice": 380
+            },
+            {
+                "stockName": "Light",
+                "noOfShares": 13,
+                "sharePrice": 360
+            },
+            {
+                "stockName": "Intruder",
+                "noOfShares": 13,
+                "sharePrice": 356
+            }
+        ],
+        "Toyota": [
+            {
+                "stockName": "Fortuner",
+                "noOfShares": 15,
+                "sharePrice": 280
+            },
+            {
+                "stockName": "Indigo",
+                "noOfShares": 17,
+                "sharePrice": 260
+            },
+            {
+                "stockName": "Sidis",
+                "noOfShares": 20,
+                "sharePrice": 190
+            }
+        ]
+    }
+]

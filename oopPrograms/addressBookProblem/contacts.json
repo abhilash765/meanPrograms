@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Abhi",
+        "address":"abc house",
+        "city":"Kannur",
+        "state":"Kerala",
+        "pin":670011
+    },
+    {
+        "name":"Akhi",
+        "address":"ghe house",
+        "city":"Kannur",
+        "state":"Kerala"
+    },
+    {
+        "name":"chui",
+        "address":"efghouse",
+        "city":"karnataka",
+        "state":"Banglore",
+        "pin":5670099
+    }
+]

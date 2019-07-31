@@ -1,0 +1,27 @@
+[
+    {
+        "PATIENT": [
+            {
+                "pName": "Soumi",
+                "PID": 20,
+                "age": 25,
+                "number":989873673,
+                "cTime": 10
+            },
+            {
+                "pName": "Molly",
+                "PID": 28,
+                "age": 14,
+                "number":887897876,
+                "cTime": 11
+            },
+            {
+                "pName": "Rahul",
+                "PID": 35,
+                "age": 34,
+                "number":98765432,
+                "cTime": 12
+            }
+        ]
+    }
+]
